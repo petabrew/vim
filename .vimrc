@@ -5,12 +5,16 @@ Plugin 'The-NERD-tree'
 call vundle#end()
 
 syntax on
+set nu
 set autoindent
 set cindent
-set nu
 set ts=4
 set shiftwidth=4
 set noimd
+set smartindent
+set expandtab
+set et
+
 
 nmap <F2> :NERDTreeToggle<CR>
 
