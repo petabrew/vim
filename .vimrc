@@ -8,12 +8,12 @@ syntax on
 set nu
 set autoindent
 set cindent
-set ts=4
-set shiftwidth=4
 set noimd
+
 set smartindent
+set tabstop=4
 set expandtab
-set et
+set shiftwidth=4
 
 
 nmap <F2> :NERDTreeToggle<CR>
